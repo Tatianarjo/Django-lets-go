@@ -4,6 +4,14 @@
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
         "--django-settings-module=levelup.settings"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "db.sqlite3",
+            "name": "Levelup"
+        }
     ]
     
 }
