@@ -7,4 +7,4 @@ class Game(models.Model):
 
     name = models.CharField(max_length=50)
     player_limit = models.IntegerField()
-    gamer = models.ForeignKey("levelupapi.Gamer", on_delete=models.DO_NOTHING)
+    gametype = models.ForeignKey("levelupapi.gametype", on_delete=models.SET_NULL, null=True)
