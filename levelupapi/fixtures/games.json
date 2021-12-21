@@ -1,0 +1,20 @@
+[
+    {
+      "model": "levelupapi.game",
+      "pk": 1,
+      "fields": {
+        "name": "UNO Flip Tournament",
+        "player_limit": 2,
+        "gametype": 2
+      }
+    },
+    {
+      "model": "levelupapi.game",
+      "pk": 2,
+      "fields": {
+        "name": "BINGO",
+        "player_limit": 2,
+        "gametype": 1
+      }
+    }
+  ]
