@@ -1,0 +1,22 @@
+[
+    {
+      "model": "levelupapi.event",
+      "pk": 1,
+      "fields": {
+        "title": "Valentine's Tournament",
+        "date": "2020-08-28T14:51:39.989Z",
+        "host": 1,
+        "game": 1
+      }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+          "title": "Summer Maddness",
+          "date": "2020-07-29T14:51:39.989Z",
+          "host": 1,
+          "game": 2
+        }
+    }
+  ]
