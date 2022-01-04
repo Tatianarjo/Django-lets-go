@@ -15,4 +15,3 @@ urlpatterns = [
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
 ]
 ## Notice register & login are imported from views & that's imported from the __init__.py & auth.py(where you made it)
-
