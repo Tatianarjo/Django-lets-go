@@ -7,5 +7,5 @@ class Event(models.Model):
 
     title = models.CharField(max_length=100)
     date = models.DateTimeField ()
-    host = models.ForeignKey("levelupapi.Gamer", on_delete=models.DO_NOTHING)
+    maker = models.ForeignKey("levelupapi.Gamer", on_delete=models.DO_NOTHING)
     game = models.ForeignKey("levelupapi.Game", on_delete=models.CASCADE)
