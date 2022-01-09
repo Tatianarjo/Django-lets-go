@@ -3,20 +3,33 @@
       "model": "levelupapi.event",
       "pk": 1,
       "fields": {
-        "title": "Valentine's Tournament",
-        "date": "2020-08-28T14:51:39.989Z",
+        "description": "Welcome To at lunch",
+        "date": "2021-10-04",
         "maker": 1,
-        "game": 1
+        "game": 1,
+        "time": "12:00"
       }
     },
     {
         "model": "levelupapi.event",
         "pk": 2,
         "fields": {
-          "title": "Summer Maddness",
-          "date": "2020-07-29T14:51:39.989Z",
+          "description": "Friday night Settlers and drinks",
+          "date": "2021-08-14",
           "maker": 1,
-          "game": 2
+          "game": 2,
+          "time": "19:30"
         }
+    },
+    {
+      "model": "levelupapi.event",
+      "pk": 2,
+      "fields": {
+        "description": "Vale of the Frost King campaign. All weekend.",
+        "date":  "2021-04-20",
+        "maker": 1,
+        "game": 3,
+        "time": "8:00"
+      }
     }
   ]
