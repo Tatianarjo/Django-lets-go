@@ -8,7 +8,7 @@ from levelupapi.views import EventView
 
 ## rest and GameTypeView import is specifying the URLs you want it to go to
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r'gametypes', GameTypeView, 'gametype')
+router.register(r'gameTypes', GameTypeView, 'gametype')
 router.register(r'games', GameView, 'game')
 router.register(r'events', EventView, 'event')
 
